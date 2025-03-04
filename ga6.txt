@@ -11,11 +11,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Button!",
 	Callback = function()
-      		CheckLevel(Value)
-  	end    
-})
-
-function CheckLevel(Value)
+ function CheckLevel(Value)
 local Lv = game:GetService("Players").LocalPlayer.Data.Level.Value
 if First_Sea then
 if Lv == 1 or Lv <= 9 or SelectMonster == "Bandit" or SelectArea == '' then -- Bandit
@@ -661,3 +657,5 @@ AreaList = {
   'Pirate Port', 'Amazon', 'Marine Tree', 'Deep Forest', 'Haunted Castle', 'Nut Island', 'Ice Cream Island', 'Cake Island', 'Choco Island', 'Candy Island','Tiki Outpost'
 }
 end
+end    
+})
