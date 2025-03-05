@@ -1,0 +1,440 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "DEEP HUB [ PREMIUM ]",
+   LoadingTitle = "Deep Hub",
+   LoadingSubtitle = "by Deep Hub",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil,
+      FileName = "Example Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+   KeySystem = false,
+   KeySettings = {
+      Title = "Key | Deep Hub",
+      Subtitle = "Key System",
+      Note = "Key In Discord Server",
+      FileName = "YoutubeHubKey1",
+      SaveKey = true,
+      GrabKeyFromSite = true,
+      Key = {"https://pastebin.com/raw/AtgzSPWK"}
+   }
+})
+
+local MainTab = Window:CreateTab("General", nil)
+local ComTab = Window:CreateTab("Combat", nil)
+local LandTab = Window:CreateTab("Island", nil)
+local SetTab = Window:CreateTab("Settings", nil)
+local GamTab = Window:CreateTab("Info Menu", nil)
+
+
+local lrSection = MainTab:CreateSection("📋FARM LEVEL📋")
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto Farm Level",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto Farm Level ( Kaitun )",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto Farm Factory",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local OtherSection = MainTab:CreateSection("🌲Mastery🌲")
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto Farm Mastery ( All )",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+
+local OthebrSection = MainTab:CreateSection("☠️FARM BONE☠️")
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto Farm Bone ( No quest accepted )",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto Farm Bone ( Quest accepted )",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local ObntherSection = MainTab:CreateSection("💧RACE V4💧") 
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto V2",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto v3",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = MainTab:CreateToggle({
+   Name = "Auto Up V4 ( Auto )",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local OtherSbection = ComTab:CreateSection("Other")
+local Toggle = ComTab:CreateToggle({
+   Name = "Auto Kill User",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = ComTab:CreateToggle({
+   Name = "Auto Teleport User",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = ComTab:CreateToggle({
+   Name = "Auto Click ( KILL USER )",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = ComTab:CreateToggle({
+   Name = "Auto On PVP",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Slider = MainTab:CreateSlider({
+   Name = "Select Speed Tween",
+   Range = {1, 200},
+   Increment = 1,
+   Suffix = "Speed",
+   CurrentValue = 0,
+   Flag = "sliderjp",
+   Callback = function(Value)
+        end,
+})
+local OtherkbkSbection = LandTab:CreateSection("Sea Place")
+local Button = LandTab:CreateButton({
+   Name = "Sea 1",
+   Callback = function()
+        --Teleport2
+   end,
+})
+local Button = LandTab:CreateButton({
+   Name = "Sea 2",
+   Callback = function()
+        --Teleport2
+   end,
+})
+local Button = LandTab:CreateButton({
+   Name = "Sea 3",
+   Callback = function()
+        --Teleport2
+   end,
+})
+local OtherSbection = LandTab:CreateSection("Island Sea1")
+local Button = LandTab:CreateButton({
+   Name = "Starter Island",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Marine Starter Island",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Jungle",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Pirate Village",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Desert",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Middle Island",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Frozen Village",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Colosseum",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Prison",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Magma Village",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Underwater City",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Fountain City",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Skylands",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Upper Skylands",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Sky Castle",
+   Callback = function()
+        --Teleport2
+   end,
+})
+local OtherSbection = LandTab:CreateSection("Island Sea2")
+local Button = LandTab:CreateButton({
+   Name = "Kingdom of Rose",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Usoap's Island",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Green Zone",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Graveyard",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Snow Mountain",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Hot and Cold",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Cursed Ship",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Ice Castle",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Forgotten Island",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Dark Arena",
+   Callback = function()
+        --Teleport2
+   end,
+})
+local OtherSbection = LandTab:CreateSection("Island Sea3")
+local Button = LandTab:CreateButton({
+   Name = "Port Town",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Hydra Island",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Great Tree",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Floating Turtle",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Castle on the Sea",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Haunted Castle",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Sea of Treats",
+   Callback = function()
+        --Teleport2
+   end,
+})
+
+local Button = LandTab:CreateButton({
+   Name = "Tiki Island",
+   Callback = function()
+        --Teleport2
+   end,
+})
+local Slider = SetTab:CreateSlider({
+   Name = "Speed User",
+   Range = {1, 300},
+   Increment = 1,
+   Suffix = "Speed",
+   CurrentValue = 0,
+   Flag = "sliderjp",
+   Callback = function(Value)
+        end,
+})
+
+local Toggle = SetTab:CreateToggle({
+   Name = "Antiban",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = SetTab:CreateToggle({
+   Name = "Delete Anti-Cheat [ Premium ]",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
+local Toggle = SetTab:CreateToggle({
+   Name = "Auto Hợp Sever",
+   CurrentValue = false,
+   Flag = "Toggle1",
+   Callback = function(Value)
+        
+   end,
+})
